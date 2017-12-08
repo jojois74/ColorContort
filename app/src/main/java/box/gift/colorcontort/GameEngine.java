@@ -150,6 +150,7 @@ class GameEngine
             else
             {
                 score++;
+                player.color = DEFAULT;
                 rumble.vibrate(50);
             }
             obstacle = null;
